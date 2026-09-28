@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Exemplo Consultoria</title>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": ["Organization", "ProfessionalService"],
+      "@id": "https://example.com/#organization",
+      "name": "Exemplo Consultoria",
+      "url": "https://example.com/",
+      "sameAs": [
+        "https://www.linkedin.com/company/exemplo-consultoria/",
+        "http://www.instagram.com/exemploconsultoria/",
+        "https://www.facebook.com/exemploconsultoria?utm_source=site",
+        "https://www.linkedin.com/company/exemplo-consultoria"
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://example.com/#pessoa",
+      "name": "Maria Exemplo",
+      "worksFor": { "@id": "https://example.com/#organization" },
+      "sameAs": [
+        "https://github.com/maria-exemplo",
+        "example.com/maria"
+      ]
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://example.com/#pessoa",
+  "name": "Maria E. Exemplo"
+}
+</script>
+</head>
+<body><p>Página fictícia de exemplo.</p></body>
+</html>
